@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Admin Kurs Teilzeit">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.100.100.20:HV-SQL2019\Administrator">
+          <Created>2020-11-11T22:31:21.8193537+01:00</Created>
+          <Type>SQL</Type>
+          <Server>192.100.100.20</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="192.100.100.20:sa">
+          <Created>2020-11-09T15:37:12.0093932+01:00</Created>
+          <Type>SQL</Type>
+          <Server>192.100.100.20</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HV-SQL2019:HV-SQL2019\Administrator">
+          <Created>2020-11-11T22:29:47.2897591+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HV-SQL2019\HR:HV-SQL2019\Administrator">
+          <Created>2020-11-12T13:43:11.5233697+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019\HR</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0001_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>0001_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0002_FirstSettings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>0002_FirstSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0003_DBSettings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>0003_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0004_DB Design und Objekte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0004_DB Design und Objekte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0005_Agent_Notifications.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0005_Agent_Notifications.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0005_SystemDBs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019\HR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0005_SystemDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0006_DBMail aktivieren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0006_DBMail aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0007_Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0007_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0008_Restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0008_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0009_Detach.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0009_Detach.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0010_ContainedDB aktivieren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0010_ContainedDB aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0011_Snapshot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0011_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0012_Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0012_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0012_Verwaiste User.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0012_Verwaiste User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0012b_Anwendungsrolle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0012b_Anwendungsrolle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0013_Richtlinien.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0013_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0014_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0014_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Locks finden.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Locks finden.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaintenanceSolution.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>MaintenanceSolution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_Help_rev_login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.100.100.20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.100.100.20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_Help_rev_login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2019 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
